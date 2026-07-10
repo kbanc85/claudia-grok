@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PROJECT_DIR}/.claude/hooks/grok-session-start.py\" 2>/dev/null || python \"${CLAUDE_PROJECT_DIR}/.claude/hooks/grok-session-start.py\" 2>/dev/null || true",
+            "timeout": 15,
+            "statusMessage": "Claudia session briefing..."
+          }
+        ]
+      }
+    ]
+  }
+}
