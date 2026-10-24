@@ -58,6 +58,10 @@ Healthy result: structured brief from memory (or context files), not a blank str
 
 ---
 
+## Claudia's Brain (Grok Bot Page)
+
+Hosted canvas for the public Grok Bot template: [`grokbot/brain/`](./grokbot/brain/) — download [`claudia-brain.canvas.tsx`](./grokbot/brain/claudia-brain.canvas.tsx) from the raw URL documented there.
+
 ## Prefer copy-paste templates?
 
 If you want files without running the agent, see [`templates/`](./templates/):
